@@ -59,7 +59,7 @@ def ver_check():
     if not (vernow == mainver):
         psb("\n    [*] Tool Update Found...")
         psb("    [*] Updating Tool...")
-        os.system("cd .. && rm ToxicMail && git clone https://github.com/Toxic-Noob/ToxicMail > /dev/null 2>&1")
+        os.system("cd .. && rm -rf ToxicMail && git clone https://github.com/Toxic-Noob/ToxicMail > /dev/null 2>&1")
         psb("\n    [*] Tool Update Complete...")
         psb("    [*] Starting Tool...")
         time.sleep(0.7)
