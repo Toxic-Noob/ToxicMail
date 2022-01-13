@@ -51,7 +51,7 @@ def ver_check():
         vernow = "None"
     while True:
         try:
-            mainver = requests.get("").text
+            mainver = requests.get("https://raw.githubusercontent.com/Toxic-Noob/ToxicMail/main/.version").text
             break
         except:
             psb("\n\033[91m    [!] Please Connect To The Internet...")
