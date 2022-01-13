@@ -1,4 +1,4 @@
-# ToxicMail v1.0
+# ToxicMail V1.0
 Generate Temporar Email Addresses From Your Terminal...
 
 # Installation Commands :
